@@ -35,7 +35,7 @@ const Users = () => {
 
             <div className="headind_srch" >
                 <div className="recent_heading">
-                    <h4>{value.user.displayName ? value.user.displayName : 'Recent'}</h4>
+                    <h4>{value.user ? value.user.displayName : 'Recent'}</h4>
                 </div>
                 <div className="srch_bar">
                     <div className="stylish-input-group">
