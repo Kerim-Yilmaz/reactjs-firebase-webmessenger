@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactjs-firebase-webmessenger/static/css/main.c731ccf5.chunk.css",
-    "main.js": "/reactjs-firebase-webmessenger/static/js/main.3747291a.chunk.js",
-    "main.js.map": "/reactjs-firebase-webmessenger/static/js/main.3747291a.chunk.js.map",
+    "main.js": "/reactjs-firebase-webmessenger/static/js/main.53a1e994.chunk.js",
+    "main.js.map": "/reactjs-firebase-webmessenger/static/js/main.53a1e994.chunk.js.map",
     "runtime-main.js": "/reactjs-firebase-webmessenger/static/js/runtime-main.e4b84b41.js",
     "runtime-main.js.map": "/reactjs-firebase-webmessenger/static/js/runtime-main.e4b84b41.js.map",
     "static/js/2.dce67e8b.chunk.js": "/reactjs-firebase-webmessenger/static/js/2.dce67e8b.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e4b84b41.js",
     "static/js/2.dce67e8b.chunk.js",
     "static/css/main.c731ccf5.chunk.css",
-    "static/js/main.3747291a.chunk.js"
+    "static/js/main.53a1e994.chunk.js"
   ]
 }
