@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import Layout from './components/Layout/Layout'
+import AuthProvider from './context/AuthContext'
+import UserProvider from './context/UserContext'
+import MessageProvider from './context/MessageContext'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-function App() {
+
+
+function App() { 
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Router>
+    <AuthProvider>
+      <UserProvider>
+      <MessageProvider>
+     
+      <Route path="/login" ><Login/></Route>
+      <Route path="/signup"  ><Signup/></Route>
+      <Route exact path='/'> <Layout/> </Route>
+      
+       
+  
+    
+    </MessageProvider>
+    </UserProvider>
+  </AuthProvider>
+  </Router>
+    </>
   );
 }
 
